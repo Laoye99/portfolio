@@ -23,7 +23,7 @@ const Navbar = () => {
         <GiHamburgerMenu size={25} onClick={handleClick} />
         </p>
         </div>
-        {open ? (
+        
         <div className="nav">
         <ul>
         <li className="nav-item">

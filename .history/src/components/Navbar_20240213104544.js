@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Navbar.css";
 import {GiHamburgerMenu} from "react-icons/gi";
 import { Link } from "react-scroll";
 import { 
@@ -9,6 +8,10 @@ import {
     FcServices, 
     FcCollaboration } from "react-icons/fc";
 import {FaUser} from "react-icons/fa";
+import {MdBiotech, } from "react-icons/md";
+import { AiOutlineFileText } from 'react-icons/ai';
+
+
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -23,7 +26,7 @@ const Navbar = () => {
         <GiHamburgerMenu size={25} onClick={handleClick} />
         </p>
         </div>
-        {open ? (
+        
         <div className="nav">
         <ul>
         <li className="nav-item">
@@ -46,7 +49,7 @@ const Navbar = () => {
         duration={100}
         offset={-100}
         >
-        <FaUser size={25} color='#fffff'/>
+        <FaUser size={25} color='#000000'/>
         About
         </Link>
         </li>

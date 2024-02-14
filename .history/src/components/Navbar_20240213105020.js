@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Navbar.css";
+import from "./Navbar.css";
 import {GiHamburgerMenu} from "react-icons/gi";
 import { Link } from "react-scroll";
 import { 
@@ -23,7 +23,7 @@ const Navbar = () => {
         <GiHamburgerMenu size={25} onClick={handleClick} />
         </p>
         </div>
-        {open ? (
+        
         <div className="nav">
         <ul>
         <li className="nav-item">
@@ -46,7 +46,7 @@ const Navbar = () => {
         duration={100}
         offset={-100}
         >
-        <FaUser size={25} color='#fffff'/>
+        <FaUser size={25} color='#000000'/>
         About
         </Link>
         </li>
