@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+
+.home {
+  height: 400px;
+  background-color: #000000;
+  color: #00f5c0;
+}
+
+.home-content {
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 300px;
+  position: relative;
+  width: ;
+}
+/* rgba(189, 59, 210, 0.94) */
+
+.home-content h1 {
+  font-family: DM Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 6.2rem;
+  color: #ffffff;
+}
+
+.home-content h1 img {
+  width: 45px;
+}
+
+.home-content h2 {
+  margin-top: 20px;
+  color: #00f5c0;
+  font-size: 40px;
+}
+
+.button-for-action {
+  display: flex;
+}
+
+.hire-me-button {
+  background-color: #000000;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  border: 3px solid #00f5c0;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.hire-me-button:hover {
+  background-color: #ffffff;
+  width: 250px;
+  color: #000;
+  transition-duration: 1s;
+  font-size: 20px;
+}
+.get-resume-button {
+  background-color: #121b27;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  border: 3px solid #5404ff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.get-resume-button:hover {
+  background-color: #ffffff;
+  width: 250px;
+  color: #000;
+  transition-duration: 1s;
+  font-size: 20px;
+}
+
+.get-resume-button a {
+  text-decoration: none;
+}
+
+.automation {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  height: 100px;
+  animation: rotation infinite 5s linear;
+}
+
+@media (max-width: 450px) {
+  .automation {
+    bottom: 0;
+  }
+}
+
+.theme-change {
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
+  right: 0;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  position: fixed;
+  top: 150;
+  margin-top: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sun-light-icon {
+  animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1000px) {
+  .home-content {
+    margin: 30px auto;
+  }
+}
