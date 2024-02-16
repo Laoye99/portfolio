@@ -79,6 +79,7 @@ const TechStack = () => {
         "#33FF58",
         "#33CAFF",
         "#3355FF",
+        "#9333FF",
         "#F033FF",
         "#FF33C4",
         "#FF3386",

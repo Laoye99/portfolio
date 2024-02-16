@@ -29,6 +29,9 @@ const TechStack = () => {
           name: "TailwindCSS",
         },
         {
+          name: "React Native",
+        },
+        {
           name: "Vanilla JS",
         },
         {
@@ -77,8 +80,10 @@ const TechStack = () => {
         "#FFE333",
         "#B2FF33",
         "#33FF58",
+        "#33FFC1",
         "#33CAFF",
         "#3355FF",
+        "#9333FF",
         "#F033FF",
         "#FF33C4",
         "#FF3386",

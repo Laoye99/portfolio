@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 import concept from "../../Image/concept.png";
 import automation from "../../Image/automation.png";
 import "./Home.css";
-import MyCv from "./Resume_fullstack.pdf";
+import MyCv fro;
 
 
 
