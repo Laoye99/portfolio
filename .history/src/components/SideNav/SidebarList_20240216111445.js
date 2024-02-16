@@ -9,7 +9,7 @@ import {
     FcPortraitMode} from "react-icons/fc";
 
 import { Link } from "react-scroll";
-import profilepic from"../../Image/Profile.jpg";
+import profilepic from"../../Image";
 
 const SidebarList =({expandSidebar}) => {
 return(

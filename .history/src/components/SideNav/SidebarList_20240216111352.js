@@ -5,11 +5,11 @@ import {
     FcBriefcase,
     FcContacts,
     FcServices, 
-    FcCollaboration,
+    FcCollaboration,,
     FcPortraitMode} from "react-icons/fc";
 
 import { Link } from "react-scroll";
-import profilepic from"../../Image/Profile.jpg";
+import profilepic from"../../Image/Screenshot (29).png";
 
 const SidebarList =({expandSidebar}) => {
 return(

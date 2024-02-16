@@ -1,9 +1,8 @@
 import React from "react";
-import "./Project.css";
+import "./Projects.css";
 import one from "../../Image/Image1.png";
 import two from "../../Image/Image 2.png";
 import three from "../../Image/Image 3.png";
-import ProjectSite from "./ProjectSite";
 
 const Projects = () => {
     const data = [
@@ -20,32 +19,12 @@ const Projects = () => {
           image: two,
         },
         {
-          Des: "A Catalogue of The Latest Models of Your Favorite Car Brands",
+          Des: "A feature that displays a list of NFTs",
           ProjectLink: "https://laoye99.github.io/cars/",
-          GithubLink: "https://github.com/Laoye99/cars",
+          GithubLink: "https://github.com/haywhyvilla/AlturaFrontendTask",
           image: three,
         }
     ]
-
-    return (
-        <div className="container section-project" id="project">
-          <div className="section-title bottom">
-            <h2>Projects</h2>
-            <span className="line"></span>
-          </div>
-    
-          <div className="row">
-            {data.map((item, index) => (
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-sm-12 bottom left"
-                key={index}
-              >
-                <ProjectSite {...item} />
-              </div>
-            ))}
-          </div>
-        </div>
-      );
 }
 
 export default Projects;

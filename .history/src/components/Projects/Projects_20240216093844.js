@@ -20,7 +20,7 @@ const Projects = () => {
           image: two,
         },
         {
-          Des: "A Catalogue of The Latest Models of Your Favorite Car Brands",
+          Des: "A Catalogue of The Latest Models of Your Favorite Car",
           ProjectLink: "https://laoye99.github.io/cars/",
           GithubLink: "https://github.com/Laoye99/cars",
           image: three,

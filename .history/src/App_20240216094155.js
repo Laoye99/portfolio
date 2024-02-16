@@ -6,7 +6,6 @@ import Sidebar from './components/SideNav/Sidebar';
 import About from './components/About/About';
 import TechStack from './components/TechStack/TechStack';
 import Projects from './components/Projects/Projects';
-import Contact from './components/Contacts/Contact';
 
 export const ThemeContext = createContext(null);
 
@@ -24,7 +23,7 @@ const App = () => {
     <About/>
     <TechStack/>
     <Projects/>
-    <Contact/>
+    
     </div>
     <ScrollToTop
     top="200"

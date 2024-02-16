@@ -1,9 +1,9 @@
 import React from "react";
-import "./Project.css";
+import "./Projects.css";
 import one from "../../Image/Image1.png";
 import two from "../../Image/Image 2.png";
 import three from "../../Image/Image 3.png";
-import ProjectSite from "./ProjectSite";
+import P
 
 const Projects = () => {
     const data = [
@@ -20,7 +20,7 @@ const Projects = () => {
           image: two,
         },
         {
-          Des: "A Catalogue of The Latest Models of Your Favorite Car Brands",
+          Des: "A feature that displays a list of NFTs",
           ProjectLink: "https://laoye99.github.io/cars/",
           GithubLink: "https://github.com/Laoye99/cars",
           image: three,

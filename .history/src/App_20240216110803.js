@@ -6,7 +6,7 @@ import Sidebar from './components/SideNav/Sidebar';
 import About from './components/About/About';
 import TechStack from './components/TechStack/TechStack';
 import Projects from './components/Projects/Projects';
-import Contact from './components/Contacts/Contact';
+import Conta
 
 export const ThemeContext = createContext(null);
 
