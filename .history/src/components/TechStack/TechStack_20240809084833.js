@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./TechStack.css";
 import { Fade } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
@@ -26,13 +26,7 @@ const TechStack = () => {
           name: "HTML5",
         },
         {
-          name: "BootStrap",
-        },
-        {
           name: "TailwindCSS",
-        },
-        {
-          name: "React Native",
         },
         {
           name: "Vanilla JS",
@@ -71,7 +65,7 @@ const TechStack = () => {
             name: "Postman",
         },
         {
-            name: "MySQL",
+            name: "OracleDB",
         },
         {
             name: "Tomcat",
@@ -83,10 +77,8 @@ const TechStack = () => {
         "#FFE333",
         "#B2FF33",
         "#33FF58",
-        "#33FFC1",
         "#33CAFF",
         "#3355FF",
-        "#9333FF",
         "#F033FF",
         "#FF33C4",
         "#FF3386",
@@ -98,7 +90,11 @@ const TechStack = () => {
         "#33FF58",
         "#FF33C4",
         "#034694",
-        
+        "#5A0394",
+        "#940303",
+        "#944403",
+        "#449403",
+        "#03945C"
       ];
 
       const [showMoreTechStack, setMoreTechStack] = useState(9);

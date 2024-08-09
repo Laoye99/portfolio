@@ -65,7 +65,7 @@ const TechStack = () => {
             name: "Postman",
         },
         {
-            name: "MySQL",
+            name: "OracleDB",
         },
         {
             name: "Tomcat",

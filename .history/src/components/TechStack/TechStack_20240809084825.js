@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./TechStack.css";
 import { Fade } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
@@ -26,13 +26,7 @@ const TechStack = () => {
           name: "HTML5",
         },
         {
-          name: "BootStrap",
-        },
-        {
           name: "TailwindCSS",
-        },
-        {
-          name: "React Native",
         },
         {
           name: "Vanilla JS",
@@ -71,7 +65,7 @@ const TechStack = () => {
             name: "Postman",
         },
         {
-            name: "MySQL",
+            name: "o",
         },
         {
             name: "Tomcat",
@@ -83,10 +77,8 @@ const TechStack = () => {
         "#FFE333",
         "#B2FF33",
         "#33FF58",
-        "#33FFC1",
         "#33CAFF",
         "#3355FF",
-        "#9333FF",
         "#F033FF",
         "#FF33C4",
         "#FF3386",
@@ -97,10 +89,59 @@ const TechStack = () => {
         "#33FFF6",
         "#33FF58",
         "#FF33C4",
+        "#034694",
+        "#5A0394",
+        "#940303",
+        "#944403",
+        "#449403",
+        "#03945C"
       ];
 
-      const
+      const [showMoreTechStack, setMoreTechStack] = useState(9);
 
-}
+      const loadMore = () => {
+        setMoreTechStack((prev) => prev + 3);
+      };
+      return (
+        <div className="container techstack-section" id="stack">
+      <div className="section-title">
+        <h2>Tech Stack</h2>
+        <span className="line"></span>
+      </div>
+
+      <div className="row">
+        {data.slice(0, showMoreTechStack).map((item, index) => (
+          <Fade right>
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
+              <div
+                className={
+                  index === 0
+                    ? "tech-content-marked tech-content"
+                    : "tech-content"
+                }
+              >
+                <span
+                  className="tech-number"
+                  style={{ backgroundColor: colors[index] }}
+                >
+                  {index + 1}
+                </span>
+                <p>{item.name}</p>
+              </div>
+            </div>
+          </Fade>
+        ))}
+      </div>
+
+      {showMoreTechStack >= data.length ? null : (
+        <Zoom>
+          <span className="load-more" onClick={loadMore}>
+            Load More
+          </span>
+        </Zoom>
+      )}
+    </div>
+      );
+};
 
 export default TechStack;
