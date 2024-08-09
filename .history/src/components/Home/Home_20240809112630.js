@@ -5,7 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 import concept from "../../Image/concept.png";
 import automation from "../../Image/automation.png";
 import "./Home.css";
-import MyCv from './MyResume.pdf';
+import MyCv from "./OPEYEMI_DEV_RESUME.pdf";
 
 
 
@@ -56,8 +56,8 @@ const Home = ({theme, changeTheme}) => {
             </div>
         </div>
         </Fade>
+        <img className='automation' alt='automation' src={automation}/>
         </div>
-        
         </div>
     )
 
